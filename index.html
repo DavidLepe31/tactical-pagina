@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tactical Shop | MVP Visual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="desktop-stage">
+      <main class="app" id="app"></main>
+    </div>
+
+    <div class="overlay" id="overlay" aria-hidden="true"></div>
+    <aside class="drawer" id="drawer" aria-hidden="true" aria-label="Detalle de contenido">
+      <button class="drawer__close" id="closeDrawer" aria-label="Cerrar panel">✕</button>
+      <div class="drawer__media" id="drawerMedia"></div>
+      <p class="eyebrow" id="drawerEyebrow"></p>
+      <h3 id="drawerTitle"></h3>
+      <p id="drawerDescription"></p>
+      <button class="drawer__cta" id="drawerCta">Ver detalle</button>
+    </aside>
+
+    <a class="whatsapp-fab" href="#" aria-label="Contactar por WhatsApp">
+      <span>✆</span>
+    </a>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
